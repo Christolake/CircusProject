@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Algerian Mesa Plain W00;
+}
+
+header {
+    display: flex;
+    background-color: honeydew;
+}
+
+nav {
+    display: space-between;
+    background-color: cornflowerblue;
+    color: gold;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        padding: 0.2em 2em 0.2em 2em;
+    }
+    li:hover    {
+        font-size: 1.2em;
+    }
+}
